@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Bank Load Form Template</title>
+  </head>
+  <body>
+    <section class="form_container rounded">
+      <div class="form_container__left_col">
+        <img
+          src="./money-bag.png"
+          alt="money bag icon"
+          class="left_col__image"
+        />
+        <h2 class="left_col__title">Xero Bank Loans</h2>
+        <p class="left_col__desc">
+          We are the most trusted bank to give loans for home, cars and other to
+          fulfill your dreams
+        </p>
+      </div>
+      <div class="form_container__right_col">
+        <div class="right_col__texts">
+          <h2 class="right_col__title">Just some more</h2>
+          <p class="right_col__desc">
+            Carefully read and fill up all the inputs with your original
+            information
+          </p>
+        </div>
+
+        <input type="number" placeholder="Amount" class="inputs rounded" />
+
+        <select name="reason" class="inputs rounded">
+          <option value="reason-1">Reason One</option>
+          <option value="reason-2">Reason Two</option>
+          <option value="reason-3">Reason Three</option>
+        </select>
+
+        <div class="right_col__have_account">
+          <label class="have_acc_title"> Have account in this bank? </label>
+          <div>
+            <input type="radio" id="yes" name="fav_language" value="Yes" />
+            <label for="yes" class="have_acc_choices">Yes</label>
+          </div>
+          <div>
+            <input type="radio" id="no" name="fav_language" value="No" />
+            <label for="no" class="have_acc_choices">No</label><br />
+          </div>
+        </div>
+
+        <div class="buttons">
+          <button class="button rounded">Back</button>
+          <button class="button rounded">Next</button>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
