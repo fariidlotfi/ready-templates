@@ -141,6 +141,16 @@ body {
   outline: none;
   background-color: var(--primary);
   color: white;
+  cursor: pointer;
+  transition: translate 300ms ease;
+  -webkit-transition: translate 300ms ease;
+  -moz-transition: translate 300ms ease;
+  -ms-transition: translate 300ms ease;
+  -o-transition: translate 300ms ease;
+}
+
+.button:hover {
+  translate: 0 -2px;
 }
 
 @media screen and (max-width: 500px) {
