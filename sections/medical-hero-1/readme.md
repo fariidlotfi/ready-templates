@@ -4,4 +4,4 @@
 
 # Screenshot
 
-[Shot](sections\medical-hero-1\assets\shot.png)
+![shot](https://github.com/fariidlotfi/ready-templates/assets/138003177/bf333207-3e7c-4edf-afb4-ee2cf4496f45)
