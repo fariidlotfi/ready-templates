@@ -41,6 +41,11 @@ body {
   -o-transition: all 300ms ease;
 }
 
+.card:hover {
+  box-shadow: 0 5px 10px #ddd;
+  translate: 0 -2px;
+}
+
 .category {
   font-size: 0.7rem;
   background-color: #f7f8fc;
