@@ -1,0 +1,68 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: azure;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  padding: 20px;
+}
+
+.cards_container {
+  display: flex;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+.card {
+  max-width: 300px;
+  height: 350px;
+  background-color: white;
+  box-shadow: 0 0 5px #ddd;
+  position: relative;
+  transition: transform 300ms ease;
+  -webkit-transition: transform 300ms ease;
+  -moz-transition: transform 300ms ease;
+  -ms-transition: transform 300ms ease;
+  -o-transition: transform 300ms ease;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  -webkit-transform: translateY(-2px);
+  -moz-transform: translateY(-2px);
+  -ms-transform: translateY(-2px);
+  -o-transform: translateY(-2px);
+}
+
+.card__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card__title {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  color: rgb(53, 53, 53);
+  background-color: white;
+  padding: 15px 30px;
+  width: 80%;
+  font-size: 1rem;
+}
+
+.card__link {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}

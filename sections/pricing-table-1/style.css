@@ -115,6 +115,7 @@ body {
 .includes-subtitle {
   font-size: 0.8rem;
   margin-top: 15px;
+  line-height: 1.2rem;
 }
 
 /* Shapes */
