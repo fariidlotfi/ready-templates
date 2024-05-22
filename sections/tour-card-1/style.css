@@ -1,5 +1,5 @@
 :root {
-  --radius: 10px;
+  --radius: 12px;
 }
 
 * {
@@ -21,7 +21,7 @@ body {
 }
 
 .card {
-  max-width: 350px;
+  max-width: 360px;
   display: flex;
   flex-direction: column;
   background-color: white;
