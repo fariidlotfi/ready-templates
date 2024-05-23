@@ -159,3 +159,13 @@ body {
   -ms-border-radius: 8px;
   -o-border-radius: 8px;
 }
+
+@media screen and (max-width: 650px) {
+  .product {
+    flex-direction: column;
+  }
+
+  .product__data {
+    gap: 20px;
+  }
+}
