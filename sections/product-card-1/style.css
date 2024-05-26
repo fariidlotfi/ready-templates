@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300..900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: azure;
+  font-family: "Rubik", sans-serif;
+}
+
+.container {
+  min-height: 100svh;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  gap: 25px;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.product_card {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  position: relative;
+  background-color: white;
+  box-shadow: 0 0 10px #cacaca;
+  border-radius: 16px;
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  -ms-border-radius: 16px;
+  -o-border-radius: 16px;
+}
+
+.product_card__wishlist-button {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.product_card__image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 16px 16px 0 0;
+  -webkit-border-radius: 16px 16px 0 0;
+  -moz-border-radius: 16px 16px 0 0;
+  -ms-border-radius: 16px 16px 0 0;
+  -o-border-radius: 16px 16px 0 0;
+}
+
+.product_card__data {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 15px;
+}
+
+.product_card__title {
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+}
+
+.product_card__desc {
+  font-size: 0.8rem;
+  line-height: 1.5rem;
+  color: rgb(97, 97, 97);
+}
+
+.product_card__prices {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.product_card__prices-off {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.product_card__prices-main {
+  font-size: 0.8rem;
+  text-decoration: line-through;
+  color: rgb(97, 97, 97);
+}
+
+.product_card__add-to-cart-button {
+  font-size: 1rem;
+  color: white;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: radial-gradient(#6a5e2d, #20211f);
+  padding: 12px;
+  font-weight: bold;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+@media screen and (width <= 1020px) {
+    .container {
+      grid-template-columns: 1fr 1fr;
+    }
+}
+@media screen and (width <= 650px) {
+  .container{
+    grid-template-columns: 1fr;
+  }
+}
