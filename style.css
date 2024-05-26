@@ -27,7 +27,7 @@ body {
   max-width: 300px;
   height: 350px;
   background-color: white;
-  box-shadow: 0 0 5px #ddd;
+  box-shadow: 0 0 10px #6b6b6b65;
   position: relative;
   transition: transform 300ms ease;
   -webkit-transition: transform 300ms ease;
