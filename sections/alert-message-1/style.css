@@ -119,6 +119,7 @@ article[class^="card"] {
 
 .right-col__buttons {
   display: flex;
+  flex-wrap: wrap;
   gap: 10px;
 }
 
@@ -148,12 +149,15 @@ article[class^="card"] {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
   background-color: #fff9eb;
 }
 
 .card3__texts {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
   gap: 10px;
   color: #ef9000;
 }
@@ -278,12 +282,15 @@ article[class^="card"] {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
   background-color: #191919;
 }
 
 .card3-dark__texts {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
   gap: 10px;
   color: #ef9000;
 }
@@ -313,5 +320,7 @@ article[class^="card"] {
 @media screen and (max-width: 960px) {
   .container {
     grid-template-columns: 1fr;
+    margin: 10px;
+    padding: 5px;
   }
 }
