@@ -1,10 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
-</head>
-<body>
-$END$
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Responsive Grid</title>
+  </head>
+  <body>
+    <main class="container">
+      <!-- Light Mode Messages -->
+      <section class="first-col">
+        <h1>Light Alert Messages</h1>
+        <!-- card 1 light -->
+        <article class="card1">
+          <div>
+            <h2 class="card1__title">Custom code is not validated</h2>
+            <p class="card1__message">
+              Incorrect code may impact your website's performance.
+            </p>
+          </div>
+          <button class="card1__button">Ok, I got it</button>
+        </article>
+
+        <!-- card 2 light -->
+        <article class="card2">
+          <img
+            class="card2__close-button"
+            src="close-icon.svg"
+            alt="icon that closes message"
+          />
+          <div class="card2__col-left">
+            <img src="info-icon.svg" alt="info icon" />
+          </div>
+          <div class="card2__right-col">
+            <h2 class="card2__title">The data export you request is ready!</h2>
+            <div class="right-col__buttons">
+              <button class="card2__button">View the data</button>
+              <button class="card2__button-secondary">Maybe later</button>
+            </div>
+          </div>
+        </article>
+
+        <!-- card 3 light -->
+        <article class="card3">
+          <div class="card3__texts">
+            <img src="info-icon-orange.svg" alt="info icon" />
+            <p class="card3__title">
+              You have no credit left! <span>Upgrade to continue</span>
+            </p>
+          </div>
+          <button class="card3__button">Upgrade</button>
+        </article>
+      </section>
+
+      <!-- Dark Mode Messages -->
+      <section class="second-col">
+        <h1 style="color: white">Dark Alert Messages</h1>
+
+        <!-- card 1 dark -->
+        <article class="card1-dark">
+          <div>
+            <h2 class="card1-dark__title">Custom code is not validated</h2>
+            <p class="card1-dark__message">
+              Incorrect code may impact your website's performance.
+            </p>
+          </div>
+          <button class="card1-dark__button">Ok, I got it</button>
+        </article>
+
+        <!-- card 2 dark -->
+        <article class="card2-dark">
+          <img
+            class="card2-dark__close-button"
+            src="close-icon.svg"
+            alt="icon that closes message"
+          />
+          <div class="card2-dark__col-left">
+            <img src="info-icon.svg" alt="info icon" />
+          </div>
+          <div class="card2-dark__right-col">
+            <h2 class="card2-dark__title">
+              The data export you request is ready!
+            </h2>
+            <div class="right-col__buttons">
+              <button class="card2-dark__button">View the data</button>
+              <button class="card2-dark__button-secondary">Maybe later</button>
+            </div>
+          </div>
+        </article>
+
+        <!-- card 3 dark -->
+        <article class="card3-dark">
+          <div class="card3-dark__texts">
+            <img src="info-icon-orange.svg" alt="info icon" />
+            <p class="card3-dark__title">
+              You have no credit left! <span>Upgrade to continue</span>
+            </p>
+          </div>
+          <button class="card3-dark__button">Upgrade</button>
+        </article>
+      </section>
+    </main>
+  </body>
 </html>
