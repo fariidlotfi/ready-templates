@@ -37,6 +37,15 @@ article[class^="card"] {
   font-family: "Rubik", sans-serif;
 }
 
+/* container responsive */
+@media screen and (max-width: 960px) {
+  .container {
+    grid-template-columns: 1fr;
+    margin: 10px;
+    padding: 5px;
+  }
+}
+
 .first-col,
 .second-col {
   flex: 1;
@@ -182,6 +191,67 @@ article[class^="card"] {
   -moz-text-decoration-line: underline;
 }
 
+/* card 4 light */
+.card4 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  background-color: #fff9eb;
+}
+
+.card4__texts {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  color: #ef9000;
+}
+
+.card4__title {
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+.card4__title span {
+  font-weight: normal;
+}
+
+.card4__button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: #ef9000;
+  font-weight: bold;
+  font-size: 0.8rem;
+  text-decoration-line: underline;
+  -moz-text-decoration-line: underline;
+}
+
+/* card 5 light */
+.card5 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  background-color: #e3f8ef;
+}
+
+.card5__texts {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  color: #59947b;
+}
+
+.card5__title {
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
 /* card 1 dark mode */
 .card1-dark {
   background-color: #191919;
@@ -316,11 +386,53 @@ article[class^="card"] {
   -moz-text-decoration-line: underline;
 }
 
-/* container responsive */
-@media screen and (max-width: 960px) {
-  .container {
-    grid-template-columns: 1fr;
-    margin: 10px;
-    padding: 5px;
-  }
+/* card 4 dark */
+.card4-dark {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  background-color: #191919;
+}
+
+.card4-dark__texts {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  color: #ef9000;
+}
+
+.card4-dark__title {
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+.card4-dark__title span {
+  font-weight: normal;
+  color: gray;
+}
+
+/* card 5 dark */
+.card5-dark {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  background-color: #191919;
+}
+
+.card5-dark__texts {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  color: #59947b;
+}
+
+.card5-dark__title {
+  font-size: 0.8rem;
+  font-weight: bold;
 }
