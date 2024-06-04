@@ -308,6 +308,33 @@ article[class^="card"] {
   -o-border-radius: 6px;
 }
 
+/* card 7 light */
+.card7 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  background-color: #f0fafc;
+}
+
+.card7__texts {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  color: #09b8f6;
+}
+
+.card7__title {
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+.card7__title span {
+  font-weight: normal;
+}
+
 /* card 1 dark mode */
 .card1-dark {
   background-color: var(--dark-background);
@@ -536,4 +563,32 @@ article[class^="card"] {
   -moz-border-radius: 6px;
   -ms-border-radius: 6px;
   -o-border-radius: 6px;
+}
+
+/* card 7 dark */
+.card7-dark {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  background-color: var(--dark-background);
+}
+
+.card7-dark__texts {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  color: #09b8f6;
+}
+
+.card7-dark__title {
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+.card7-dark__title span {
+  color: var(--dark-text);
+  font-weight: normal;
 }
