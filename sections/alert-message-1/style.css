@@ -343,13 +343,6 @@ article[class^="card"] {
   gap: 15px;
   border: none;
   border-left: 5px solid #d01a4b;
-  position: relative;
-}
-
-.card8__close-button {
-  position: absolute;
-  top: 15px;
-  right: 15px;
 }
 
 .card8__right-col {
@@ -369,29 +362,40 @@ article[class^="card"] {
   font-size: 0.7rem;
 }
 
-.right-col__buttons {
+/* card 9 light */
+.card9 {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
   flex-wrap: wrap;
   gap: 10px;
+  background-color: #f9edf1;
 }
 
-.card8__button {
-  font-size: 0.7rem;
-  padding: 4px 6px;
-  background-color: white;
-  border: 1px solid #b8b8b8;
-  border-radius: 6px;
-  -webkit-border-radius: 6px;
-  -moz-border-radius: 6px;
-  -ms-border-radius: 6px;
-  -o-border-radius: 6px;
+.card9__texts {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  color: #d01a4b;
 }
 
-.card8__button-secondary {
-  font-size: 0.7rem;
+.card9__title {
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+.card9__title span {
+  font-weight: normal;
+}
+
+.card9__button {
   background-color: transparent;
   border: none;
-  color: #6036ed;
+  outline: none;
+  color: #d01a4b;
+  font-weight: bold;
+  font-size: 0.8rem;
   text-decoration-line: underline;
   -moz-text-decoration-line: underline;
 }
@@ -705,6 +709,45 @@ article[class^="card"] {
   background-color: transparent;
   border: none;
   color: #6036ed;
+  text-decoration-line: underline;
+  -moz-text-decoration-line: underline;
+}
+
+
+/* card 9 dark */
+.card9-dark {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  background-color: var(--dark-background);
+}
+
+.card9-dark__texts {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  color: #d01a4b;
+}
+
+.card9-dark__title {
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+.card9-dark__title span {
+  font-weight: normal;
+}
+
+.card9-dark__button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: #d01a4b;
+  font-weight: bold;
+  font-size: 0.8rem;
   text-decoration-line: underline;
   -moz-text-decoration-line: underline;
 }
