@@ -335,6 +335,67 @@ article[class^="card"] {
   font-weight: normal;
 }
 
+/* card 8 styles */
+.card8 {
+  background-color: #f9edf1;
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+  border: none;
+  border-left: 5px solid #d01a4b;
+  position: relative;
+}
+
+.card8__close-button {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+
+.card8__right-col {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+}
+
+.card8__title {
+  color: #d01a4b;
+  font-size: 0.8rem;
+}
+
+.card8__text {
+  color: #d01a4b;
+  font-size: 0.7rem;
+}
+
+.right-col__buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.card8__button {
+  font-size: 0.7rem;
+  padding: 4px 6px;
+  background-color: white;
+  border: 1px solid #b8b8b8;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+}
+
+.card8__button-secondary {
+  font-size: 0.7rem;
+  background-color: transparent;
+  border: none;
+  color: #6036ed;
+  text-decoration-line: underline;
+  -moz-text-decoration-line: underline;
+}
+
 /* card 1 dark mode */
 .card1-dark {
   background-color: var(--dark-background);
@@ -591,4 +652,59 @@ article[class^="card"] {
 .card7-dark__title span {
   color: var(--dark-text);
   font-weight: normal;
+}
+
+/* card 8 dark */
+.card8-dark {
+  background-color: var(--dark-background);
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+  border: none;
+  border-left: 5px solid #d01a4b;
+  position: relative;
+}
+
+.card8-dark__close-button {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+
+.card8-dark__right-col {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+}
+
+.card8-dark__title {
+  color: #d01a4b;
+  font-size: 0.8rem;
+}
+
+.card8-dark__text {
+  color: var(--dark-text);
+  font-size: 0.7rem;
+}
+
+.card8-dark__button {
+  font-size: 0.7rem;
+  padding: 4px 6px;
+  background-color: white;
+  border: 1px solid #b8b8b8;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+}
+
+.card8-dark__button-secondary {
+  font-size: 0.7rem;
+  background-color: transparent;
+  border: none;
+  color: #6036ed;
+  text-decoration-line: underline;
+  -moz-text-decoration-line: underline;
 }
