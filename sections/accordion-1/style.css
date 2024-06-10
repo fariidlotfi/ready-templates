@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300..900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: grid;
+  place-content: center;
+  min-height: 100svh;
+  padding: 20px;
+  font-family: "Rubik", sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.acc {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  gap: 0;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+}
+
+.acc__title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fafafa;
+  padding: 10px;
+  font-size: 0.8rem;
+  cursor: pointer;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+}
+
+.acc__title-text {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.acc__body {
+  padding: 20px;
+  display: none;
+  font-size: 0.8rem;
+  line-height: 1.5rem;
+}
+
+.active,
+.active .acc__title {
+  background-color: #eaf1f9;
+}
+
+.active .acc__body {
+  display: block;
+}
+
+.active .acc__title {
+  border-bottom: 1px solid #ddd;
+}
