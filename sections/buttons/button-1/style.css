@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300..900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  background-color: azure;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  display: grid;
+  place-content: center;
+  gap: 50px;
+  min-height: 100svh;
+  grid-template-columns: 1fr 1fr;
+}
+
+.col-1,
+.col-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.purple {
+  background-color: #aa58d7;
+  box-shadow: 5px 5px 0 #8b39b8;
+}
+
+.red {
+  background-color: #ff5f6b;
+  box-shadow: 5px 5px 0 #c8212f;
+}
+
+.yellow {
+  background-color: #ffc800;
+  box-shadow: 5px 5px 0 #f79716;
+}
+
+.blue {
+  background-color: #00b0f5;
+  box-shadow: 5px 5px 0 #0091cf;
+}
+
+.green {
+  background-color: #a0de68;
+  box-shadow: 5px 5px 0 #82c754;
+}
+
+.dark-purple {
+  background-color: #6c4cd4;
+  box-shadow: 5px 5px 0 #4e2fb5;
+}
+
+.orange {
+  background-color: #ff9933;
+  box-shadow: 5px 5px 0 #db742b;
+}
+
+.dark-blue {
+  background-color: #0080f0;
+  box-shadow: 5px 5px 0 #006adb;
+}
+
+.dark-green {
+  background-color: #00cc66;
+  box-shadow: 5px 5px 0 #00ad56;
+}
+
+.pink {
+  background-color: #ff70a0;
+  box-shadow: 5px 5px 0 #d14f7c;
+}
+
+.btn-1 {
+  padding: 8px 15px;
+  outline: none;
+  border: none;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 0.7rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  border-radius: 20px 20px 20px 0;
+  -webkit-border-radius: 20px 20px 20px 0;
+  -moz-border-radius: 20px 20px 20px 0;
+  -ms-border-radius: 20px 20px 20px 0;
+  -o-border-radius: 20px 20px 20px 0;
+}
+
+.btn-1__icon {
+  background-color: white;
+  width: 20px;
+  height: 20px;
+  padding: 5px;
+  box-shadow: -2px 2px 2px rgba(0, 0, 0, 0.3);
+  border-radius: 20px 20px 20px 0;
+  -webkit-border-radius: 20px 20px 20px 0;
+  -moz-border-radius: 20px 20px 20px 0;
+  -ms-border-radius: 20px 20px 20px 0;
+  -o-border-radius: 20px 20px 20px 0;
+}
+
+
+@media screen and (max-width: 500px) {
+    .container{
+        grid-template-columns: 1fr;
+        padding: 20px;
+    }
+}
